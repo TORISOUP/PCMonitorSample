@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PcMonitor.Protocol", "PcMonitor.Protocol\PcMonitor.Protocol.csproj", "{CCDE844D-EB04-4325-8BF3-4D9CC5A955D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PcMonitor", "PcMonitor\PcMonitor.csproj", "{64976B32-BA89-4931-AE49-AB1C4756711E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCDE844D-EB04-4325-8BF3-4D9CC5A955D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCDE844D-EB04-4325-8BF3-4D9CC5A955D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCDE844D-EB04-4325-8BF3-4D9CC5A955D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCDE844D-EB04-4325-8BF3-4D9CC5A955D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64976B32-BA89-4931-AE49-AB1C4756711E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64976B32-BA89-4931-AE49-AB1C4756711E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64976B32-BA89-4931-AE49-AB1C4756711E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64976B32-BA89-4931-AE49-AB1C4756711E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

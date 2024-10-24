@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net48</TargetFramework>
+        <Nullable>enable</Nullable>
+        <LangVersion>9</LangVersion>
+        <RootNamespace>PcMonitor</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="InfluxDB.Client" Version="4.18.0" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\PcMonitor.Protocol\PcMonitor.Protocol.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="OpenHardwareMonitorLib">
+        <HintPath>..\OpenHardwareMonitorLib.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
